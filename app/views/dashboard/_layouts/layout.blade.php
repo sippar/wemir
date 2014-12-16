@@ -36,8 +36,8 @@
 		<!--                       Javascripts                       -->
 
 		<!-- jQuery -->
-        {{--{{ HTML::script("packages/dashboard/resources/scripts/jquery-1.3.2.min.js") }}--}}
-		{{ HTML::script("packages/dashboard/resources/scripts/jquery-1.11.1.js") }}
+        {{ HTML::script("packages/dashboard/resources/scripts/jquery-1.3.2.min.js") }}
+		{{--{{ HTML::script("packages/dashboard/resources/scripts/jquery-1.11.1.js") }}--}}
 		{{--<script type="text/javascript" src="resources/scripts/jquery-1.3.2.min.js"></script>--}}
 
 		<!-- jQuery Configuration -->

@@ -4,7 +4,7 @@ if(! function_exists('getCurrentRoute'))
 {
     /**
      * @param string $route
-     * @return bool
+     * @return bool | string
      */
     function getCurrentRoute($route = '')
     {
@@ -18,7 +18,6 @@ if(! function_exists('getCurrentRoute'))
     }
 }
 
-//if(! function_exists(''))
 if(! function_exists('_pr')){
     function _pr($data, $die = false)
     {

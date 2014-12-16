@@ -22,19 +22,16 @@
                         {{ Form::email("email",$value = null, ["class"=>"text-input  large-input"]) }}
                         {{ $errors->first('email','<span class="input-notification error png_bg">:message</span>') }}
 
-                        {{--<span class="input-notification error png_bg">Error message</span>--}}
                     </p>
                     <p>
                         {{ Form::label("password","Password") }}
                         {{ Form::password("password",["class"=>"text-input  large-input"]) }}
                         {{ $errors->first('password','<span class="input-notification error png_bg">:message</span>') }}
-                        {{--<span class="input-notification success png_bg">Error message</span>--}}
                     </p>
                     <p>
                         {{ Form::label("password_confirm","Password Confirm ") }}
                         {{ Form::password("password_confirm", ["class"=>"text-input  large-input"]) }}
                         {{ $errors->first('password_confirm','<span class="input-notification error png_bg">:message</span>') }}
-                        {{--<span class="input-notification success png_bg">Error message</span>--}}
                     </p>
                     <p>
                         {{ Form::submit("Submit",["class"=>"button"]) }}
